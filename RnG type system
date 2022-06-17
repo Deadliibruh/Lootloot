@@ -1,0 +1,16 @@
+import random
+
+def card_pulled(nums):
+
+    if 5 >= nums:
+        return (nums, "LEGGO")
+    elif 15 >= nums:
+        return (nums, "EPIC")
+    elif 30 >= nums:
+        return (nums, "RARE")
+    elif 55 >= nums:
+        return (nums, "UNCOMMON")
+    elif 100 >= nums:
+        return (nums, "COMMON")
+
+print(card_pulled(random.randint(1, 100)))
