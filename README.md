@@ -1,0 +1,2 @@
+# Lootloot
+RNG type system
