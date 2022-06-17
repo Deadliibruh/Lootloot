@@ -13,4 +13,7 @@ def card_pulled(nums):
     elif 100 >= nums:
         return (nums, "COMMON")
 
-print(card_pulled(random.randint(1, 100)))
+i = 1
+while i < 4:
+    print(card_pulled(random.randint(1, 100)))
+    i += 1
